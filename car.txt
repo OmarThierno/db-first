@@ -1,0 +1,10 @@
+USED CARS
+
+id                            -UNSIGNED INT   -PRIMARY_KEY (NOT NULL, UNIQUE)   -AUTO_INCLEMENT
+nome_auto                     -VARCHAR(255)   -NOT NULL
+modello_auto                  -VARCHAR(255)   -NOT NULL
+marca                         -VARCHAR(255)
+anno_di_produzione            -YEAR
+da_sistemare                  -TINYINT
+colore                        -VARCHAR(255)
+per_neopatentati              -TINYINT
